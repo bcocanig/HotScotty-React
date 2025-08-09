@@ -228,7 +228,7 @@ const App = () => {
         )}
       </nav>
 
-      {/* Hero Section */}
+      {/* Hero Sections */}
       <section id="home" className="relative w-full min-h-screen flex items-center justify-center">
         {/* Background image full width */}
         <div
