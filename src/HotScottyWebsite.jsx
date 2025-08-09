@@ -151,7 +151,7 @@ const App = () => {
     {
       title: "Scottsdale Fashion Square",
       description: "Luxury shopping destination with over 200 stores including Nordstrom, Neiman Marcus, and Apple.",
-      image: "/assets/Mall.jpg",
+      image: "/assets/mall.jpg",
       address: "7014 E Camelback Rd, Scottsdale, AZ 85251",
       mapLink: "https://www.google.com/maps/dir/?api=1&destination=7014+E+Camelback+Rd,+Scottsdale,+AZ+85251"
     },
