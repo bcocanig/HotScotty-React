@@ -137,42 +137,42 @@ const App = () => {
     {
       title: "Pizza Rock",
       description: "Award-winning New York-style pizza with creative toppings and a vibrant atmosphere.",
-      image: "//assets/pizza.jpg",
+      image: "/assets/pizza.jpg",
       address: "7155 E Camelback Rd, Scottsdale, AZ 85251",
       mapLink: "https://www.google.com/maps/dir/?api=1&destination=7155+E+Camelback+Rd,+Scottsdale,+AZ+85251"
     },
     {
       title: "Pinnacle Peak Trail",
       description: "Challenging 3.1-mile hike with panoramic views of the Sonoran Desert and McDowell Mountains.",
-      image: "//assets/pinnaclepeak.jpg",
+      image: "/assets/pinnaclepeak.jpg",
       address: "38201 N Pinnacle Peak Rd, Scottsdale, AZ 85266",
       mapLink: "https://www.google.com/maps/dir/?api=1&destination=38201+N+Pinnacle+Peak+Rd,+Scottsdale,+AZ+85266"
     },
     {
       title: "Scottsdale Fashion Square",
       description: "Luxury shopping destination with over 200 stores including Nordstrom, Neiman Marcus, and Apple.",
-      image: "//assets/Mall.jpg",
+      image: "/assets/Mall.jpg",
       address: "7014 E Camelback Rd, Scottsdale, AZ 85251",
       mapLink: "https://www.google.com/maps/dir/?api=1&destination=7014+E+Camelback+Rd,+Scottsdale,+AZ+85251"
     },
     {
       title: "Old Town Artisans",
       description: "Browse unique Southwestern art, jewelry, and crafts in the heart of historic Old Town.",
-      image: "//assets/oldart.jpg",
+      image: "/assets/oldart.jpg",
       address: "4225 N Marshall Way, Scottsdale, AZ 85251",
       mapLink: "https://www.google.com/maps/dir/?api=1&destination=4225+N+Marshall+Way,+Scottsdale,+AZ+85251"
     },
     {
       title: "Blue Adobe Saloon",
       description: "Authentic Southwestern cuisine with a stunning patio overlooking Camelback Mountain.",
-      image: "//assets/blue.jpg",
+      image: "/assets/blue.jpg",
       address: "7135 E Camelback Rd, Scottsdale, AZ 85251",
       mapLink: "https://www.google.com/maps/dir/?api=1&destination=7135+E+Camelback+Rd,+Scottsdale,+AZ+85251"
     },
     {
       title: "Talking Stick Resort Casino",
       description: "Entertainment destination with gaming, concerts, and multiple dining options.",
-      image: "//assets/TalkingStickResortCasino.jpg",
+      image: "/assets/TalkingStickResortCasino.jpg",
       address: "9800 E Indian Bend Rd, Scottsdale, AZ 85256",
       mapLink: "https://www.google.com/maps/dir/?api=1&destination=9800+E+Indian+Bend+Rd,+Scottsdale,+AZ+85256"
     },
@@ -234,7 +234,7 @@ const App = () => {
         <div
           className="absolute inset-0 w-full h-full bg-cover bg-center"
           style={{
-            backgroundImage: "url('//assets/scots.png')",
+            backgroundImage: "url('/assets/scots.png')",
           }}
         ></div>
 
@@ -393,7 +393,7 @@ const App = () => {
             <div
               className="absolute inset-0 bg-cover bg-center"
               style={{
-                backgroundImage: "url('//assets/SCOTTSDALE.jpg')",
+                backgroundImage: "url('/assets/SCOTTSDALE.jpg')",
               }}
             ></div>
             <div className="absolute inset-0 bg-black/40"></div>
