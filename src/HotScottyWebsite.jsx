@@ -66,25 +66,25 @@ const App = () => {
 
   // Images
   const galleryImages = [
-    "src/assets/golf1.jpeg",
-    "src/assets/pool1.jpeg",
-    "src/assets/kit1.jpeg",
-    "src/assets/den1.jpeg",
-    "src/assets/living2.jpeg",
-   "src/assets/table1.jpeg",
-    "src/assets/bed7.jpeg",
-    "src/assets/bed2.jpeg",
-    "src/assets/bed5.jpeg",
-    "src/assets/pool6.jpeg",
-    "src/assets/pool4.jpeg",
-    "src/assets/pool5.jpeg",
+    "site/src/assets/golf1.jpeg",
+    "site/src/assets/pool1.jpeg",
+    "site/src/assets/kit1.jpeg",
+    "site/src/assets/den1.jpeg",
+    "site/src/assets/living2.jpeg",
+   "site/src/assets/table1.jpeg",
+    "site/src/assets/bed7.jpeg",
+    "site/src/assets/bed2.jpeg",
+    "site/src/assets/bed5.jpeg",
+    "site/src/assets/pool6.jpeg",
+    "site/src/assets/pool4.jpeg",
+    "site/src/assets/pool5.jpeg",
 
   ];
 
   const storyImages = [
-    "src/assets/landscape.jpg",
-    "src/assets/front1.jpeg",
-    "src/assets/pool5.jpeg",
+    "site/src/assets/landscape.jpg",
+    "site/src/assets/front1.jpeg",
+    "site/src/assets/pool5.jpeg",
   ];
 
   const amenities = [
@@ -137,42 +137,42 @@ const App = () => {
     {
       title: "Pizza Rock",
       description: "Award-winning New York-style pizza with creative toppings and a vibrant atmosphere.",
-      image: "/src/assets/pizza.jpg",
+      image: "/site/src/assets/pizza.jpg",
       address: "7155 E Camelback Rd, Scottsdale, AZ 85251",
       mapLink: "https://www.google.com/maps/dir/?api=1&destination=7155+E+Camelback+Rd,+Scottsdale,+AZ+85251"
     },
     {
       title: "Pinnacle Peak Trail",
       description: "Challenging 3.1-mile hike with panoramic views of the Sonoran Desert and McDowell Mountains.",
-      image: "/src/assets/pinnaclepeak.jpg",
+      image: "/site/src/assets/pinnaclepeak.jpg",
       address: "38201 N Pinnacle Peak Rd, Scottsdale, AZ 85266",
       mapLink: "https://www.google.com/maps/dir/?api=1&destination=38201+N+Pinnacle+Peak+Rd,+Scottsdale,+AZ+85266"
     },
     {
       title: "Scottsdale Fashion Square",
       description: "Luxury shopping destination with over 200 stores including Nordstrom, Neiman Marcus, and Apple.",
-      image: "/src/assets/Mall.jpg",
+      image: "/site/src/assets/Mall.jpg",
       address: "7014 E Camelback Rd, Scottsdale, AZ 85251",
       mapLink: "https://www.google.com/maps/dir/?api=1&destination=7014+E+Camelback+Rd,+Scottsdale,+AZ+85251"
     },
     {
       title: "Old Town Artisans",
       description: "Browse unique Southwestern art, jewelry, and crafts in the heart of historic Old Town.",
-      image: "/src/assets/oldart.jpg",
+      image: "/site/src/assets/oldart.jpg",
       address: "4225 N Marshall Way, Scottsdale, AZ 85251",
       mapLink: "https://www.google.com/maps/dir/?api=1&destination=4225+N+Marshall+Way,+Scottsdale,+AZ+85251"
     },
     {
       title: "Blue Adobe Saloon",
       description: "Authentic Southwestern cuisine with a stunning patio overlooking Camelback Mountain.",
-      image: "/src/assets/blue.jpg",
+      image: "/site/src/assets/blue.jpg",
       address: "7135 E Camelback Rd, Scottsdale, AZ 85251",
       mapLink: "https://www.google.com/maps/dir/?api=1&destination=7135+E+Camelback+Rd,+Scottsdale,+AZ+85251"
     },
     {
       title: "Talking Stick Resort Casino",
       description: "Entertainment destination with gaming, concerts, and multiple dining options.",
-      image: "/src/assets/TalkingStickResortCasino.jpg",
+      image: "/site/src/assets/TalkingStickResortCasino.jpg",
       address: "9800 E Indian Bend Rd, Scottsdale, AZ 85256",
       mapLink: "https://www.google.com/maps/dir/?api=1&destination=9800+E+Indian+Bend+Rd,+Scottsdale,+AZ+85256"
     },
@@ -234,7 +234,7 @@ const App = () => {
         <div
           className="absolute inset-0 w-full h-full bg-cover bg-center"
           style={{
-            backgroundImage: "url('/src/assets/scots.png')",
+            backgroundImage: "url('/site/src/assets/scots.png')",
           }}
         ></div>
 
@@ -393,7 +393,7 @@ const App = () => {
             <div
               className="absolute inset-0 bg-cover bg-center"
               style={{
-                backgroundImage: "url('/src/assets/SCOTTSDALE.jpg')",
+                backgroundImage: "url('/site/src/assets/SCOTTSDALE.jpg')",
               }}
             ></div>
             <div className="absolute inset-0 bg-black/40"></div>
@@ -543,7 +543,7 @@ const App = () => {
         <div
           className="absolute inset-0 bg-cover bg-center"
           style={{
-            backgroundImage: "url('src/assets/end.avif')",
+            backgroundImage: "url('site/src/assets/end.avif')",
           }}
         ></div>
         <div className="absolute inset-0 bg-black/60"></div>
