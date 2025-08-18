@@ -68,10 +68,10 @@ const App = () => {
   const galleryImages = [
     "/assets/golf1.jpeg",
     "/assets/pool1.jpeg",
-    "/assets/kit1.jpeg",
-    "/assets/den1.jpeg",
+    "/assets/kit2.jpeg",
+    "/assets/den1-2.jpeg",
     "/assets/living2.jpeg",
-    "/assets/table1.jpeg",
+    "/assets/table2.jpg",
     "/assets/bed7.jpeg",
     "/assets/bed2.jpeg",
     "/assets/bed5.jpeg",
@@ -101,19 +101,19 @@ const App = () => {
   const faqs = [
     {
       question: "What are the check-in and check-out times?",
-      answer: "Check-in is at 4:00 PM and check-out is at 10:00 AM. Early check-in and late check-out may be available upon request.",
+      answer: "Check-in is at 4:00 PM and check-out is at 11:00 AM. Early check-in and late check-out may be available upon request.",
     },
     {
       question: "Are pets allowed?",
-      answer: "We welcome well-behaved pets with prior approval. A non-refundable pet fee of $150 applies for stays under 7 nights.",
+      answer: "We welcome well-behaved pets with prior approval. A non-refundable pet fee is applied via the booking platform.",
     },
     {
       question: "Is the pool heated?",
-      answer: "Yes, the pool is heated year-round to a comfortable 82°F (28°C) at no additional charge.",
+      answer: "Yes, the pool is heated year-round to a comfortable tempature at no additional charge.",
     },
     {
       question: "How close is the property to Old Town Scottsdale?",
-      answer: "The property is just 1.5 miles from Old Town Scottsdale, approximately a 5-minute drive or 20-minute walk.",
+      answer: "The property is just quick drive to Old Town Scottsdale.",
     },
     {
       question: "What is included in the kitchen?",
@@ -121,7 +121,7 @@ const App = () => {
     },
     {
       question: "Is there parking available?",
-      answer: "Yes, the property includes two dedicated parking spaces in the private driveway. Additional street parking is available if needed.",
+      answer: "Yes, the property includes two dedicated parking spaces in the private driveway. With possible garage parking. Additional street parking is available if needed.",
     },
     {
       question: "What amenities are provided for guests?",
@@ -287,7 +287,7 @@ const App = () => {
                 on the private putting green. Every outdoor space is designed for relaxation and entertainment.
               </p>
               <p className="text-lg leading-relaxed text-gray-700">
-                As the sun sets over the McDowell Mountains, gather around the custom fire pit with 
+                As the sun sets gather around the gas fire pit with 
                 friends and family, creating memories that will last long after your stay.
               </p>
             </div>
@@ -305,13 +305,12 @@ const App = () => {
             <div className="animate-on-scroll opacity-0" style={{ animationDelay: "0.2s" }}>
               <h3 className="text-3xl font-serif font-bold mb-6 text-gray-900">Luxury Interiors</h3>
               <p className="text-lg leading-relaxed text-gray-700 mb-6">
-                Inside, experience refined desert elegance with custom furnishings, 
-                natural stone accents, and carefully curated artwork. The open-concept 
-                living space flows seamlessly to the gourmet kitchen, equipped with 
+                Inside, experience refined desert elegance with custom furnishings, and carefully curated artwork. The open-concept 
+                living space flows seamlessly to the modern kitchen, equipped with 
                 premium appliances and everything needed to prepare meals for your group.
               </p>
               <p className="text-lg leading-relaxed text-gray-700">
-                Each bedroom features luxury linens, blackout curtains, and en-suite 
+                Each bedroom features luxury linens, blackout curtains.
                 bathrooms with premium amenities, ensuring restful nights and rejuvenating mornings.
               </p>
             </div>
@@ -329,14 +328,11 @@ const App = () => {
             <div className="animate-on-scroll opacity-0" style={{ animationDelay: "0.2s" }}>
               <h3 className="text-3xl font-serif font-bold mb-6 text-gray-900">Gather & Rest</h3>
               <p className="text-lg leading-relaxed text-gray-700 mb-6">
-                Whether hosting an intimate dinner for six or a larger gathering with friends, 
-                the property's flexible spaces accommodate your needs. The outdoor dining area 
-                seats eight, while the indoor living room provides comfortable seating for everyone.
+              This property is ideal for hosting both large gatherings and intimate dinners. The spacious outdoor area comfortably seats many guests, making it perfect house for events and parties. Inside, the dining area provides a cozy space for up to eight people, offering flexible options for any occasion.
               </p>
               <p className="text-lg leading-relaxed text-gray-700">
                 When it's time to retreat, each of the three bedrooms offers a sanctuary of 
-                comfort and privacy. The primary suite features a king bed, private patio access, 
-                and a spa-like bathroom with dual vanities and a walk-in shower.
+                comfort and privacy. The primary suite features a king bed and an en-suite bathroom, while the two guest rooms offer large beds, every bedroom is equipped with its own TV ensuring ample space and entertainment for everyone.
               </p>
             </div>
           </div>
@@ -402,8 +398,8 @@ const App = () => {
                 <h3 className="text-3xl md:text-4xl font-bold mb-4">Prime Location</h3>
                 <p className="text-xl max-w-2xl mx-auto">
                   Just minutes from Old Town Scottsdale, world-class golf courses, 
-                  fine dining, and luxury shopping. The perfect base for exploring 
-                  the beauty of the Sonoran Desert.
+                  fine dining, and luxury shopping and Spring Baseball. The perfect base for exploring 
+                  the beauty of the Desert.
                 </p>
               </div>
             </div>
@@ -447,7 +443,7 @@ const App = () => {
               <h3 className="text-2xl font-serif font-bold text-center mb-8 text-gray-900">Plan Your Journey</h3>
               <p className="text-gray-700 text-center mb-8">
                 Click any "Get Directions" button above to open Google Maps and plan your route from our property 
-                at XXX 1234 AZ to any of these popular destinations.
+                at 1321 N 86th way AZ to any of these popular destinations.
               </p>
               
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 text-sm">
@@ -474,7 +470,7 @@ const App = () => {
                     </li>
                   </ul>
                 </div>
-                
+                 {/*TODO WEST WORLD, WALKING STICK, AQUARIME  */}
                 <div className="bg-gray-50 p-6 rounded-xl">
                   <h4 className="font-bold text-gray-900 mb-4">Outdoor Activities</h4>
                   <ul className="space-y-3">
@@ -557,15 +553,15 @@ const App = () => {
             </p>
             <div className="space-y-4 mb-8">
               <div className="flex items-center justify-center space-x-4 text-white">
-                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+{/*                 <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path
                     strokeLinecap="round"
                     strokeLinejoin="round"
                     strokeWidth={2}
                     d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
                   />
-                </svg>
-                <span className="text-xl">XXX-XXX-XXXX</span>
+                </svg> */}
+                {/* <span className="text-xl">XXX-XXX-XXXX</span> */}
               </div>
               <div className="flex items-center justify-center space-x-4 text-white">
                 <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -576,8 +572,7 @@ const App = () => {
                     d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
                   />
                 </svg>
-                <span className="text-xl">info@hottyscotty.com</span>
-              </div>
+                <span>gpk86</span><span>@</span><span>outlook.com</span>              </div>
               <div className="flex items-center justify-center space-x-4 text-white">
                 <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path
@@ -593,7 +588,7 @@ const App = () => {
                     d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
                   />
                 </svg>
-                <span className="text-xl">Scottsdale, AZ</span>
+                <span className="text-xl">1321 N 86th Way, Scottsdale, AZ</span>
               </div>
             </div>
             <p className="text-white/80 text-lg">
