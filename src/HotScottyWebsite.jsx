@@ -69,7 +69,7 @@ const App = () => {
     "/assets/golf1.jpeg",
     "/assets/pool1.jpeg",
     "/assets/kit2.jpeg",
-    "/assets/den1-2.jpeg",
+    "/assets/den1-2.png",
     "/assets/living2.jpeg",
     "/assets/table2.jpg",
     "/assets/bed7.jpeg",
